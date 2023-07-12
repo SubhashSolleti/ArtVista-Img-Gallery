@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# ArtVista 🎭🖼️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## TDP Vista Assessment
 
-## Available Scripts
+This repository contains the source code for the ArtVista website, developed as part of the TDP vista Assessment.
 
-In the project directory, you can run:
+![Screenshot (50)](https://github.com/SubhashSolleti/ArtVista-Img-Gallery/assets/76482758/f34163bf-49f1-4647-a4b3-b23b5c65da87)
 
-### `npm start`
+![Screenshot 2023-07-13 045856](https://github.com/SubhashSolleti/ArtVista-Img-Gallery/assets/76482758/5daf2219-d1f9-4950-9637-bf7352f7f06d)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot 2023-07-13 045937](https://github.com/SubhashSolleti/ArtVista-Img-Gallery/assets/76482758/e6230214-bf9e-445f-b245-9c08ad8087d5)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Screenshot 2023-07-13 050021](https://github.com/SubhashSolleti/ArtVista-Img-Gallery/assets/76482758/5d417861-1b25-4558-8107-876c641aa27c)
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run this React website locally, follow the instructions below:
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Make sure you have the following software installed on your machine:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (https://nodejs.org)
+- npm (Node Package Manager, comes bundled with Node.js)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone this repository to your local machine:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   git clone https://github.com/SubhashSolleti/ArtVista-Img-Gallery/
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navigate to the project directory:
+  ```bash
+  cd ArtVista
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install the dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+    npm install
+   
+5. Running the Website
 
-## Learn More
+To start the development server and view the website locally, use the following command:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  ```bash
+  npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This will start the server and open the website in your default browser. If it doesn't open automatically, you can access it at http://localhost:3000.
