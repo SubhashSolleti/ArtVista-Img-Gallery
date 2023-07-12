@@ -1,0 +1,144 @@
+.app__aboutus {
+    position: relative;
+}
+
+.app__aboutus-overlay {
+    position: absolute;
+    inset: 0;
+}
+
+.app__aboutus-overlay img {
+    width: 391px;
+    height: 415px;
+    z-index: 0;
+}
+
+.app__aboutus-content {
+    width: 100%;
+    z-index: 2;
+}
+
+.app__aboutus-content_about {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: right;
+}
+
+.app__aboutus-content_knife {
+    margin: 2rem 4rem;
+}
+
+.app__aboutus-content_knife img {
+    height: 910px;
+}
+
+.app__aboutus-content_history {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    text-align: left;
+}
+
+.app__aboutus-content_about p,
+.app__aboutus-content_history p {
+    margin: 2rem 0;
+    color: var(--color-grey);
+}
+
+@media screen and (min-width: 2000px) {
+    .app__aboutus-content_knife img {
+        height: 1110px;
+    }
+
+    .app__aboutus-content_about p,
+    .app__aboutus-content_history p {
+        margin: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .app__aboutus-content {
+        flex-direction: column;
+    }
+
+    .app__aboutus-content_knife {
+        margin: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__aboutus-overlay img {
+        width: 80%;
+        height: 320px;
+    }
+}
+
+.app__newsletter {
+    padding: 2rem 4rem;
+    border: 1px solid var(--color-golden);
+    background: var(--color-black);
+}
+
+.app__newsletter-heading {
+    text-align: center;
+}
+
+.app__newsletter-input {
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+.app__newsletter-input input {
+    border: 1px solid var(--color-golden);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-base);
+    color: var(--color-white);
+    
+    margin-right: 2rem;
+    padding: 0.75rem 1rem;
+    background: var(--color-black);
+}
+
+.app__newsletter-input button {
+    width: max-content;
+}
+
+@media screen and (min-width: 2000px) {
+    .app__newsletter-input input {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .app__newsletter-input {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .app__newsletter-input input {
+        margin: 0 0 2rem 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__newsletter {
+        padding: 2rem 0;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .app__newsletter-heading h1 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+}
